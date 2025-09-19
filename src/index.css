@@ -9,6 +9,15 @@
 .card {
   @apply w-full bg-black/25 rounded-xl p-3;
 }
+.hide-scroll {
+  overflow: auto;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;  
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
 
 * {
   font-family: "Manrope", sans-serif;
